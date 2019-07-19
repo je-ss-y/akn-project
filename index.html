@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AKAN NAMES WEB</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+    <div class="container">
+          <div class="jumbotron">
+              <h1>welcome</h1>
+              <h2>Discover your <strong>Akan Name</strong></h2>
+          </div>
+        <h3> What is an Akan Name?</h3>
+        <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. 
+            These "day names" have further meanings concerning the soul and character of the person.
+             Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+             <script type="text/javascript">
+             function changecolor(){
+                var GENDER = document.getElementById("gender").value;
+                 if (GENDER==="Female"){
+                    document.body.style.backgroundColor = "red";
+                 }
+                 else if(GENDER==="Male"){ 
+                     document.body.style.backgroundColor = "black";
+
+                 }
+                    
+             }
+             </script>
+    <form>
+        <select id="gender" onchange="changecolor()">
+            <option value="GENDER"></option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select>
+    </form>
+    </div>
+    </body>
+</html>
