@@ -3,6 +3,7 @@
     <head>
         <title>AKAN NAMES WEB</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <script src= "js/scripts.js"></script>
     </head>
     <body>
     <div class="container">
@@ -14,31 +15,32 @@
         <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. 
             These "day names" have further meanings concerning the soul and character of the person.
              Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+
+             
+
+
+
+
+
+<!-- 
              <script type="text/javascript">
-             function changecolor(){
-                var GENDER = document.getElementById("gender").value;
-                 if (GENDER==="Female"){
-                    document.body.style.backgroundColor = "red";
-                 }
-                 else if(GENDER==="Male"){ 
-                     document.body.style.backgroundColor = "black";
-
-                 }
-                    
-             }
-             </script>
+              
+             
+             </script> -->
     <form>
-        <div class="form">
-            <label>Birth Date</label>
-            <input type="date" id="birth" name="Birth Date">
+        <div class="form-group">
+            <label>birth date</label>
+            <input type="date" id="birth" name="Birth Date"><br><br>
+           <select id="gender" onchange="changecolor()">
 
+                    <option value="GENDER"></option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+                <button  onclick="address()">Submit</button>
         </div>
-        <select id="gender" onchange="changecolor()">
-            <option value="GENDER"></option>
-            <option value="Female">Female</option>
-            <option value="Male">Male</option>
-        </select>
-        <button type="button" onclick="address()">Submit</button>
+     
+        
         <h3 id="displayday"></h3>
         <p id="displayname"></p>
     </form>
