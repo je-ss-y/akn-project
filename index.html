@@ -28,11 +28,19 @@
              }
              </script>
     <form>
+        <div class="form">
+            <label>Birth Date</label>
+            <input type="date" id="birth" name="Birth Date">
+
+        </div>
         <select id="gender" onchange="changecolor()">
             <option value="GENDER"></option>
             <option value="Female">Female</option>
             <option value="Male">Male</option>
         </select>
+        <button type="button" onclick="address()">Submit</button>
+        <h3 id="displayday"></h3>
+        <p id="displayname"></p>
     </form>
     </div>
     </body>
