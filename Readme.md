@@ -12,6 +12,17 @@ you will then be given an answer on what your akan name is. akan name descriptio
 * click on the window closing button to exit our platform
 ## Known Bugs
 no bugs known
+#BDD
+###functionality
+*Enter your birth details( Date ,Month ,Year)
+*click on the submit button
+###inputs
+*Date
+*Month
+*Year
+###output
+*Matched Akan Name
+*Undefined in case information is not well provided
 ## Technologies Used
 html
 css
