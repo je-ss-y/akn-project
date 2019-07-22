@@ -24,14 +24,14 @@ function address(){
 
       }
       
-      function changecolor(){
-        var GENDER = document.getElementById("gender").value;
-         if (GENDER==="Female"){
-            document.body.style.backgroundColor = "#ffe6e6";
-         }
-         else if(GENDER==="Male"){ 
-             document.body.style.backgroundColor = " #e6fffa";
+    //   function changecolor(){
+    //     var GENDER = document.getElementById("gender").value;
+    //      if (GENDER==="Female"){
+    //         document.body.style.backgroundColor = "#ffe6e6";
+    //      }
+    //      else if(GENDER==="Male"){ 
+    //          document.body.style.backgroundColor = " #e6fffa";
 
-         }
+    //      }
             
      }
