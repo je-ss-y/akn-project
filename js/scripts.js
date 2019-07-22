@@ -22,4 +22,8 @@ function address(){
           document.getElementById("displayname").innerHTML=female[Math.floor(birthday)]
         }
 
+<<<<<<< HEAD
     }
+=======
+      }
+>>>>>>> gh-pages
