@@ -4,7 +4,7 @@
         <title>AKAN NAMES WEB</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        
+        <script src= "js/scripts.js"></script>
        
     </head>
     <body>
@@ -16,28 +16,30 @@
         <h3> What is an Akan Name?</h3>
         <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. 
             These "day names" have further meanings concerning the soul and character of the person.
-             Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
-        </p>
+             Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
 
-    <div class="options">
+    <!-- <form> -->
         <div class="form-group">
             <label>birth date</label>
-            <input type="date" id="birth" name="Birth Date"><br><br>
-            <select id="gender" onchange="changecolor()">
+            <input type="number" id="Day" name="Day"><br><br>
+            <label>Month</label>
+            <input type="number" id="Month" name="Month"><br><br>
+            <label>Year</label>
+            <input type="number" id="Year"  name="Year"><br><br>
 
-                <option value="GENDER">GENDER</option>
-                <option value="Female">Female</option>
-                <option value="Male">Male</option>
-            </select>
-            
-            <button  onclick="address()">Submit</button>
+           <select id="gender">
+
+                    <option value="GENDER"></option>
+                    <option value="female"  id="female" name="gen">Female</option>
+                    <option value="male" id ="male" name="gen">Male</option>
+                </select>
+                <button  onclick="address()">Submit</button>
         </div>
      
-        
-        <h2 id="displayday">Find out your akan name</h2>
-        <h3 id="displayname"></h3>
+        <h2>Find out your Akan Name</h2>
+        <h3 id="displayday"></h3>
+        <!-- <p id="displayname"></p> -->
+    <!-- </form> -->
     </div>
-    </div>
-    <script src= "js/scripts.js"></script>
     </body>
 </html>
