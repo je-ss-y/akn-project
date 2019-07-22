@@ -2,14 +2,14 @@
 <html>
     <head>
         <title>AKAN NAMES WEB</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <script src= "scripts.js"></script>
+        
        
     </head>
     <body>
     <div class="container">
-          <div class="jumbotron">
+          <div class="radius">
               <h1>welcome</h1>
               <h2>Discover your <strong>Akan Name</strong></h2>
           </div>
@@ -18,13 +18,13 @@
             These "day names" have further meanings concerning the soul and character of the person.
              Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
 
-    <form>
+    <div>
         <div class="form-group">
             <label>birth date</label>
             <input type="date" id="birth" name="Birth Date"><br><br>
            <select id="gender" onchange="changecolor()">
 
-                    <option value="GENDER"></option>
+                    <option value="GENDER">GENDER</option>
                     <option value="Female">Female</option>
                     <option value="Male">Male</option>
                 </select>
@@ -32,9 +32,10 @@
         </div>
      
         
-        <h3 id="displayday"></h3>
-        <p id="displayname"></p>
-    </form>
+        <h2 id="displayday">YOUR AKAN NAMES IS:</h2>
+        <h3 id="displayname"></h3>
     </div>
+    </div>
+    <script src= "js/scripts.js"></script>
     </body>
 </html>

@@ -16,22 +16,26 @@ function address(){
     if(gender==="male" && (day>=1||day<31)&& (month>0||month<=12)){
         console.log (male[Math.floor(birthday)]);
         document.getElementById("displayname").innerHTML=male[Math.floor(birthday)]             
-    };
-      elseif(gender==="female" && (day>=1||day<31)&& (month>0||month<=12));{
+    }
+      else if(gender==="female" && (day>=1||day<31)&& (month>0||month<=12));{
           console.log (female[Math.floor(birthday)])
           document.getElementById("displayname").innerHTML=female[Math.floor(birthday)]
         }
 
-      }
       
-    //   function changecolor(){
-    //     var GENDER = document.getElementById("gender").value;
-    //      if (GENDER==="Female"){
-    //         document.body.style.backgroundColor = "#ffe6e6";
-    //      }
-    //      else if(GENDER==="Male"){ 
-    //          document.body.style.backgroundColor = " #e6fffa";
-
-    //      }
-            
-     }
+      
+      if (month==" "|| day==" "){
+        alert("Please fill the form correctly")
+    }
+    else if(year==" "|| gender==" "){
+        alert("please fill the form correctly")
+    
+    }
+    else if(month<=0||month>12){
+        alert("please fill the form correctly")
+    
+    }
+    else if(day<=0 || day>31){
+        alert("please fill the form correctly")
+    }
+}
