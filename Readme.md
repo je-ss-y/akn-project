@@ -10,17 +10,15 @@ you will then be given an answer on what your akan name is. akan name descriptio
 * enter your details .ie:Date, month and year of birth in the box area provided
 * click on the submit button to generate your result
 * click on the window closing button to exit our platform
-## Known Bugs
-no bugs known
-##BDD
-###functionality
-*Enter your birth details( Date ,Month ,Year)
-*click on the submit button
-###inputs
-*Date
-*Month
-*Year
-###output
+## BDD
+#### functionality
+* Enter your birth details( Date ,Month ,Year)
+* click on the submit button
+#### inputs
+* Date
+* Month
+* Year
+#### output
 *Matched Akan Name
 *Undefined in case information is not well provided
 ## Technologies Used
