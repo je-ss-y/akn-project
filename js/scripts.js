@@ -23,7 +23,7 @@ function address(){
         }
 
       
-    else if (month==" "|| day==" "){
+   if (month==" "|| day==" "){
         alert("Please fill the form correctly")
     }
     else if(year==" "|| gender==" "){

@@ -16,23 +16,25 @@
         <h3> What is an Akan Name?</h3>
         <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. 
             These "day names" have further meanings concerning the soul and character of the person.
-             Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+             Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+        </p>
 
-    <div>
+    <div class="options">
         <div class="form-group">
             <label>birth date</label>
             <input type="date" id="birth" name="Birth Date"><br><br>
-           <select id="gender" onchange="changecolor()">
+            <select id="gender" onchange="changecolor()">
 
-                    <option value="GENDER">GENDER</option>
-                    <option value="Female">Female</option>
-                    <option value="Male">Male</option>
-                </select>
-                <button  onclick="address()">Submit</button>
+                <option value="GENDER">GENDER</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select>
+            
+            <button  onclick="address()">Submit</button>
         </div>
      
         
-        <h2 id="displayday">YOUR AKAN NAMES IS:</h2>
+        <h2 id="displayday">Find out your akan name</h2>
         <h3 id="displayname"></h3>
     </div>
     </div>
