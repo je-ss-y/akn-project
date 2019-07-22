@@ -22,19 +22,4 @@ function address(){
           document.getElementById("displayname").innerHTML=female[Math.floor(birthday)]
         }
 
-      
-   if (month==" "|| day==" "){
-        alert("Please fill the form correctly")
     }
-    else if(year==" "|| gender==" "){
-        alert("please fill the form correctly")
-    
-    }
-    else if(month<=0||month>12){
-        alert("please fill the form correctly")
-    
-    }
-    else if(day<=0 || day>31){
-        alert("please fill the form correctly")
-    }
-}
